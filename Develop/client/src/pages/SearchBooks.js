@@ -81,6 +81,9 @@ const SearchBooks = () => {
         },
       });
 
+      setSavedBookIds([...savedBookIds, bookToSave.bookId]);
+
+
      //  const response = await saveBook(bookToSave, token);
 
       // if (!response.ok) {
